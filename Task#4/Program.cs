@@ -7,7 +7,7 @@ int numB = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input third number: ");
 int numC = Convert.ToInt32(Console.ReadLine());
 
-if(numA > numB && numA>numC)
+if(numA > numB && numA > numC)
 {
     Console.Write("Max = ");
     Console.WriteLine(numA);
