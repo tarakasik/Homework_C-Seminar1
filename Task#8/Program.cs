@@ -2,9 +2,20 @@
 
 Console.Write("Input number: ");
 int N = Convert.ToInt32(Console.ReadLine());
-var numbers = new int[]{ 1,N };
-var list = numbers.ToList(1,N);
-if(N % 2);
-Console.Write("All even numbers: ");
+int i = 1;
+while (i <= N);
+    {
+        if(i % 2 == 0)
+        {
+        Console.WriteLine($"All even numbers [1, N]: {i}");
+        }
+i = i + 2;
+    }
+// i++;
+//    else if(i % 2 == 0);
+//    Console.WriteLine()
+
+
+
 
 
